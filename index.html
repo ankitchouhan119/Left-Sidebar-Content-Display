@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+      #sidebar-wrapper {
+        min-height: 100vh;
+        margin-left: -15rem;
+        -webkit-transition: margin .25s ease-out;
+        -moz-transition: margin .25s ease-out;
+        -o-transition: margin .25s ease-out;
+        transition: margin .25s ease-out;
+      }
+
+      #sidebar-wrapper .sidebar-heading {
+        padding: 0.875rem 1.25rem;
+        font-size: 1.2rem;
+      }
+
+      #sidebar-wrapper .list-group {
+        width: 15rem;
+      }
+
+      #page-content-wrapper {
+        min-width: 100vw;
+      }
+
+      #wrapper.toggled #sidebar-wrapper {
+        margin-left: 0;
+      }
+
+      @media (min-width: 768px) {
+        #sidebar-wrapper {
+          margin-left: 0;
+        }
+
+        #page-content-wrapper {
+          min-width: 0;
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="d-flex" id="wrapper">
+      <!-- Sidebar -->
+      <div class="bg-light border-right" id="sidebar-wrapper">
+        <div class="sidebar-heading">Left Navigation</div>
+        <div class="list-group list-group-flush">
+          <a href="#home" class="list-group-item list-group-item-action bg-light">Home</a>
+          <a href="#about" class="list-group-item list-group-item-action bg-light">About</a>
+          <a href="#contact" class="list-group-item list-group-item-action bg-light">Contact</a>
+        </div>
+      </div>
+      <!-- /#sidebar-wrapper -->
+
+      <!-- Page Content -->
+      <div id="page-content-wrapper">
+        <div class="container-fluid">
+          <h1 class="mt-4">Left Navigation with Bootstrap</h1>
+          <p>Click on the sections to see their content.</p>
+          <div id="home" class="home">
+            <h2>Home</h2>
+            <p>Welcome to the home section.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, voluptas? Vitae, optio. Tempora fuga voluptatibus veniam quisquam praesentium error quis expedita, ex commodi. Soluta, assumenda. Voluptas qui veritatis officia ipsum!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, atque sed. Ratione aut voluptas sequi a optio modi assumenda doloremque libero debitis suscipit rem deserunt excepturi perspiciatis harum cum praesentium maiores facere at repellat explicabo quidem, sunt omnis facilis. Aperiam, corrupti sapiente aspernatur, expedita quibusdam corporis quasi nemo reiciendis, sed temporibus dolores totam eligendi culpa dolore atque accusantium. Aut blanditiis, ducimus illum porro et reiciendis minus pariatur consectetur ipsam aspernatur tempore dicta placeat a? Quis iusto doloribus, repellendus omnis a blanditiis aut eum qui unde iste est rerum neque nostrum consequatur non obcaecati voluptates facilis dicta, culpa similique dolorem, impedit ex cum quia. Dicta ipsum asperiores voluptatibus iure praesentium eos dolorem quasi aut, reiciendis, eum assumenda doloribus corporis in quam molestiae blanditiis, dignissimos possimus magnam expedita ducimus ab. Ex eos cumque velit error ipsam, temporibus consectetur a excepturi quisquam autem magni quidem illo odit, quaerat corporis minus distinctio, in beatae laudantium officiis explicabo culpa architecto voluptatum? Commodi, maiores omnis itaque cupiditate autem cum, ipsam totam aperiam ex porro quis nulla culpa sapiente quisquam reprehenderit voluptates dolor earum. Labore exercitationem voluptate eius accusamus error voluptatum libero necessitatibus assumenda? Qui unde ad quia, quisquam aspernatur accusantium nisi maxime deserunt esse repellendus quas eligendi incidunt, quos animi provident. Quisquam, quasi, inventore facere aliquid et tempora minima aspernatur enim nam animi quis, reiciendis aut cumque iste eligendi cupiditate. Cum, ea fugiat suscipit minima quod sunt magnam corrupti quidem similique architecto doloremque repudiandae rem rerum aliquam velit commodi dignissimos veniam adipisci dolores deserunt ducimus aut dolore. Sed incidunt aliquam quaerat iusto totam sint ipsa reiciendis, non illum. Eaque numquam porro incidunt illo veritatis deleniti, magni, voluptates vel voluptate repudiandae dolore culpa aperiam beatae nesciunt consequuntur hic reprehenderit temporibus sapiente, quod explicabo molestias ullam eum dignissimos? Aspernatur quibusdam sit sed a saepe unde earum odio tempore.</p>
+          </div>
+          <div id="about" class="about">
+            <h2>About</h2>
+            <p>Welcome to About section.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, numquam dicta odit rerum maiores unde aut in error voluptatum. Est nisi suscipit sunt iusto a. Consectetur error hic iure voluptates!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias nam ducimus sed deleniti molestiae culpa, libero veritatis deserunt incidunt quasi eveniet magni excepturi autem commodi doloribus quae cumque. Possimus quae impedit quo modi amet laudantium explicabo odit, ab animi. Laborum quas fugit deserunt. Cum nesciunt assumenda expedita eum, repellendus fugit inventore doloremque veniam eaque distinctio mollitia suscipit quia at in praesentium ea culpa! Suscipit dolorem magni asperiores temporibus esse sapiente, odio nulla voluptatibus perspiciatis quod dolores iusto similique qui inventore quae, pariatur exercitationem! In amet suscipit nesciunt voluptas assumenda, at explicabo non temporibus molestias, culpa maxime doloremque cum vitae quas sint repudiandae mollitia quaerat deserunt! Quidem fugiat a dolorem necessitatibus repellendus in nobis eveniet enim est? Hic rerum, odit minima laudantium in repellat vero, cum reiciendis, quibusdam recusandae nostrum libero velit sint ducimus praesentium perspiciatis voluptatibus tenetur. Quibusdam quia consequuntur fugit quo dolorem adipisci ex sunt in voluptas distinctio sed tempora veritatis atque doloribus quaerat, non autem, hic fuga rerum nemo at, consequatur aperiam! Quod voluptate placeat est adipisci tempore harum pariatur, voluptatum odio possimus quisquam deserunt alias veniam voluptas quam ad nulla porro commodi dolorem voluptates illum omnis! Omnis ipsum eveniet nam voluptate voluptatibus necessitatibus suscipit placeat quaerat corrupti quidem enim tempora libero totam quia, iusto porro labore! Corporis sint non dolores consectetur ad ipsa repellat, illo dolorum inventore, illum ipsum molestiae a provident ut officia deserunt commodi! Doloremque asperiores officia unde consequatur, explicabo omnis at commodi natus? Fuga tenetur laborum molestiae eaque nihil pariatur necessitatibus amet eos ab aut autem recusandae, cum soluta vel ea ex. Repudiandae, molestias, alias error quisquam inventore natus aliquam quas nemo perspiciatis minima ab, voluptas blanditiis quo culpa vel amet quam quidem doloribus et? Numquam optio magnam recusandae! Quasi accusantium excepturi, rem exercitationem consequuntur facere enim ex asperiores amet! Quibusdam libero quo illo sapiente suscipit autem itaque adipisci vel delectus sequi ab qui, blanditiis doloremque nisi non! Saepe modi accusamus corrupti perspiciatis magni eos ducimus qui asperiores, assumenda provident beatae atque blanditiis odio officiis illum. Minus necessitatibus architecto totam, quia sit aliquid excepturi numquam eveniet laborum nemo enim inventore corporis perferendis? A, vero?</p>
+          </div>
+          <div id="contact">
+            <h2>Contact</h2>
+            <p>Welcome to contact section.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam repellendus, non velit tenetur delectus minus iusto soluta quo totam ipsa perferendis, porro natus nemo, voluptas sapiente excepturi? Rerum, deserunt eligendi!</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint, repudiandae nostrum quidem iste voluptatibus distinctio animi rerum quam autem voluptate odit pariatur facilis dolore iure? Tenetur omnis voluptatum ex officia dicta magni sit, fugit cum et nobis commodi sint, hic sunt officiis quisquam molestiae adipisci aut praesentium eum quasi, est alias! Corrupti perferendis, consectetur dolor nihil ab modi a in aut voluptates unde tempore reiciendis commodi ad blanditiis dolore, illum distinctio vel, repellendus repudiandae vitae sit. Ipsa itaque modi blanditiis consequatur, repellendus aliquid nemo voluptatibus sit in perspiciatis sed quisquam vero dolores quia possimus, error recusandae. Eligendi fugit ut praesentium suscipit unde corrupti blanditiis, omnis necessitatibus dolores voluptates tempore velit cumque sit qui dolorem minus nisi consequuntur ullam? Debitis commodi numquam totam eligendi quo assumenda ipsam placeat alias reiciendis enim, officia tempora eveniet maiores non nisi tenetur eius? Quos provident id sed in doloribus tenetur fugit exercitationem autem voluptate illum ipsam voluptas voluptates corrupti, quidem debitis, vero libero facilis! Quo error, quod recusandae eaque quia voluptatem reprehenderit eos corrupti consectetur repellendus in tempora harum itaque dicta tempore quisquam qui autem ducimus amet at suscipit. Eveniet reprehenderit porro perspiciatis mollitia eos molestias non error esse similique labore cumque illum consequatur sequi facere dignissimos, magnam a neque debitis quos praesentium! Ut alias quam vel id quidem! Omnis et neque tenetur, quo eum eligendi, dolores modi velit corporis iusto maiores quaerat earum asperiores odio enim deserunt minima molestias perferendis! Sequi perspiciatis accusamus quis, vel ratione, nulla enim asperiores, culpa labore amet dolores dolor!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+</html>
